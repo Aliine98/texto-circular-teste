@@ -19,5 +19,5 @@
   display: inline-block;
   transform-origin: bottom center;
   transform: rotate(var(--angle));
-  padding: 80px;
+  padding: var(--padding);
 }

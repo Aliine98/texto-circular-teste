@@ -4,7 +4,12 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="circle-container">
+    <label for="padding-range">Choose padding:</label>
+    <input type="range" value="50" class="padding-range" /><span
+      class="range-value"
+      >50px</span
+    >
+    <div class="circle-container" style="--padding: 50px">
       <span data-letter="H" style="--angle: -100deg"></span>
       <span data-letter="E" style="--angle: -80deg"></span>
       <span data-letter="L" style="--angle: -60deg"></span>
@@ -16,6 +21,12 @@
       <span data-letter="R" style="--angle: 60deg"></span>
       <span data-letter="L" style="--angle: 80deg"></span>
       <span data-letter="D" style="--angle: 100deg"></span>
+      <span data-letter="-" style="--angle: 130deg"></span>
+      <span data-letter="C" style="--angle: 160deg"></span>
+      <span data-letter="S" style="--angle: 180deg"></span>
+      <span data-letter="S" style="--angle: 200deg"></span>
+      <span data-letter="-" style="--angle: 230deg"></span>
     </div>
+    <script src="index.js"></script>
   </body>
 </html>
